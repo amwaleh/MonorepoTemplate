@@ -1,0 +1,9 @@
+{
+  "name": "monorepo-template",
+  "private": true,
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend",
+    "packages/channels"
+  ]
+}
