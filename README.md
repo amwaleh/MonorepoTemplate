@@ -71,4 +71,35 @@ To ensure that the Backend project is always loaded when the Frontend project is
 }
 
 ```
+
+
 By following these steps, the Backend project will be installed as a dependency in the node modules and will be available for use by the Frontend project.
+
+## Install dependencies of all projects at once 
+
+To install node dependecies for all your projects, Navigate to your parent directory (e.g monorepoTemplate ) and run the following command 
+
+` npm install`
+
+this should install all the dependecies listed in all the projects' package.json
+A node_modules directory will be created on the top level directory
+
+## Installing dependecies for an individual Project:
+
+Navigate to the project folder (e.g Frontend) and install the depenecy or library using either npm or yarn 
+
+`npm install eslint`
+
+This should install the depencies in the node_modules directory located on the parent directory
+
+
+
+
+
+
+
+
+
+
+## 
+If this was helpful put a star :star: on it 
