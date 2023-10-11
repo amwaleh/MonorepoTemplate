@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo-template/frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo-template/backend": "1.0.0",
+    "eslint": "^8.51.0"
+  }
+}
